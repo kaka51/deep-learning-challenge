@@ -1,5 +1,5 @@
 # deep-learning-challenge
-Purpose: to help the nonprofit foundation Alphabet Soup to determine the chance of funding successsful for its applicants by building a neural network model with higher than 75% accuracy. 
+Purpose: to help the nonprofit foundation Alphabet Soup to determine the chance of funding successsfulness for its applicants by building a neural network model with higher than 75% accuracy. 
 
 Data Preprocessing
 - drop the non-beneficial columns "EIN" and "NAME" 
@@ -45,7 +45,9 @@ Model 3 - try with more layers, higher epoches, more neurons
 
 
 Summary 
+
 All 3 models are failed to achieve the target model accuracy of 75% after trying to add more neurons, add more layers, add more epochs and change activation functions. Next step, we could try with different model. 
 
 Support and Thank You to
+
 Instructors, TAs, Tutors, and Learning Assistants.
