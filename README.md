@@ -16,18 +16,20 @@ Model 1
 - First layer with 80 neurons and relu activation function
 - Second layer with 30 neurons and relu activation function
 - Train model with 100 epoches
-- 72.7% accuracy comparing the model prediction with the true values
+- 72.5% accuracy comparing the model prediction with the true values
 - failed to achieve the target model accuracy 75% 
-<img width="624" alt="image" src="https://user-images.githubusercontent.com/118244319/236704483-822023a8-6c2e-4a1a-a211-9ed43e8aaca2.png">
+<img width="590" alt="image" src="https://user-images.githubusercontent.com/118244319/236706133-38e91b71-9272-4b89-9a07-d2e598406452.png">
+
 
 
 Model 2 - try with different activation function and higher epoches
 - First layer with 80 neurons and tanh activation function
 - Second layer with 30 neurons and tanh activation function
 - Train model with 200 epoches
-- 72.5% accuracy comparing the model prediction with the true values
+- 72.4% accuracy comparing the model prediction with the true values
 - failed to achieve the target model accuracy 75% 
-<img width="613" alt="image" src="https://user-images.githubusercontent.com/118244319/236704612-8b52d761-8bca-4eb9-a68c-b8e8465fdf74.png">
+<img width="570" alt="image" src="https://user-images.githubusercontent.com/118244319/236706122-ffa4bf51-53d3-4abc-bbf7-d887242c4e5c.png">
+
 
 
 Model 3 - try with more layers, higher epoches, more neurons
@@ -37,10 +39,13 @@ Model 3 - try with more layers, higher epoches, more neurons
 - Fourth layer with 100 neurons and relu activation function
 - Fifth layer with 100 neurons and relu activation function
 - Train model with 200 epoches
-- 72.6% accuracy comparing the model prediction with the true values
+- 72.5% accuracy comparing the model prediction with the true values
 - failed to achieve the target model accuracy 75% 
-<img width="601" alt="image" src="https://user-images.githubusercontent.com/118244319/236705443-7772d3f6-8b3d-422e-8bc1-3f0589e0e65a.png">
+<img width="584" alt="image" src="https://user-images.githubusercontent.com/118244319/236706560-d30f4af1-52da-4d24-b281-6828b87101be.png">
 
 
 Summary 
+All 3 models are failed to achieve the target model accuracy of 75% after trying to add more neurons, add more layers, add more epochs and change activation functions. Next step, we could try with different model. 
 
+Support and Thank You to
+Instructors, TAs, Tutors, and Learning Assistants.
