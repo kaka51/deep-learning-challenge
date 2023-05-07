@@ -3,8 +3,8 @@ Purpose: to help the nonprofit foundation Alphabet Soup to determine the chance 
 
 Data Preprocessing
 - drop the non-beneficial columns "EIN" and "NAME" 
-- cutoff value based on 'APPLICATION_TYPE' count less than 500 as others 
-- cutoff value based on 'CLASSIFICATION' count less than 1500 as others 
+- get the 'APPLICATION_TYPE' value count and then cutoff value if less than 500 as others 
+- get the 'CLASSIFICATION' value count and then cutoff value if less than 1500 as others 
 - pd.get_dummies to convert categorical data to numeric
 - set "IS_SUCCESSFUL" as target and other as features 
 - train_test_split to split the data into test and train dataset
@@ -38,4 +38,6 @@ Model 3 - try with more layers, higher epoches, more neurons
 - 72.6% accuracy comparing the model prediction with the true values. 
 <img width="601" alt="image" src="https://user-images.githubusercontent.com/118244319/236705443-7772d3f6-8b3d-422e-8bc1-3f0589e0e65a.png">
 - failed to achieve the target model accuracy 75%
+
+Summary 
 
