@@ -4,10 +4,19 @@ Purpose: to help the nonprofit foundation Alphabet Soup to determine the chance 
 Results: Using bulleted lists and images to support your answers, address the following questions:
 
 Data Preprocessing
+- drop the non-beneficial columns "EIN" and "NAME" 
+- cutoff value based on 'APPLICATION_TYPE' count less than 500 as others 
+- cutoff value based on 'CLASSIFICATION' count less than 1500 as others 
+- pd.get_dummies to convert categorical data to numeric
+- set "IS_SUCCESSFUL" as target and other as features 
+- train_test_split to split the data into test and train dataset
+- standardscaler to scale the dataset
 
 What variable(s) are the target(s) for your model?
+
 What variable(s) are the features for your model?
 What variable(s) should be removed from the input data because they are neither targets nor features?
+
 Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
@@ -21,6 +30,7 @@ Model 1
 - Train model with 100 epoches
 - 72.7% accuracy comparing the model prediction with the true values.  
 - <img width="624" alt="image" src="https://user-images.githubusercontent.com/118244319/236704483-822023a8-6c2e-4a1a-a211-9ed43e8aaca2.png">
+- failed to achieve the target model accuracy 75%
 
 
 Model 2 - try with different activation function and higher epoches
@@ -29,7 +39,7 @@ Model 2 - try with different activation function and higher epoches
 - Train model with 200 epoches
 - 72.5% accuracy comparing the model prediction with the true values.  
 - <img width="613" alt="image" src="https://user-images.githubusercontent.com/118244319/236704612-8b52d761-8bca-4eb9-a68c-b8e8465fdf74.png">
-
+- failed to achieve the target model accuracy 75%
 
 Model 3 - try with more layers, higher epoches, more neurons
 - First layer with 110 neurons and relu activation function
@@ -39,5 +49,6 @@ Model 3 - try with more layers, higher epoches, more neurons
 - Fifth layer with 100 neurons and relu activation function
 - Train model with 200 epoches
 - 72.6% accuracy comparing the model prediction with the true values. 
-- <img width="606" alt="image" src="https://user-images.githubusercontent.com/118244319/236704873-c334e36e-4801-45c3-96b6-57f626a96b24.png">
+- <img width="601" alt="image" src="https://user-images.githubusercontent.com/118244319/236705443-7772d3f6-8b3d-422e-8bc1-3f0589e0e65a.png">
+- failed to achieve the target model accuracy 75%
 
