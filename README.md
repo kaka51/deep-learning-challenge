@@ -1,4 +1,4 @@
-# deep-learning-challenge
+# Deep-Learning-Challenge
 Purpose: to help the nonprofit foundation Alphabet Soup to determine the chance of funding successsfulness for its applicants by building a neural network model with higher than 75% accuracy. 
 
 ## Data Preprocessing
