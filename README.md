@@ -46,7 +46,7 @@ Model 3 - try with more layers, higher epoches, more neurons
 
 ## Summary 
 
-All 3 models are failed to achieve the target model accuracy of 75% after trying to add more neurons, add more layers, add more epochs and change activation functions. Next step, we could try with different model. 
+All 3 models are failed to achieve the target model accuracy of 75% after trying to add more neurons, add more layers, add more epochs and change activation functions. Next step, we could try with different modeling methods. 
 
 ## Support and Thank You to
 
