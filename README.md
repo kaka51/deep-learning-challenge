@@ -1,7 +1,7 @@
 # deep-learning-challenge
 Purpose: to help the nonprofit foundation Alphabet Soup to determine the chance of funding successsfulness for its applicants by building a neural network model with higher than 75% accuracy. 
 
-Data Preprocessing
+##Data Preprocessing
 - drop the non-beneficial columns "EIN" and "NAME" 
 - get the 'APPLICATION_TYPE' value count and then cutoff value if less than 500 as others 
 - get the 'CLASSIFICATION' value count and then cutoff value if less than 1500 as others 
@@ -10,7 +10,7 @@ Data Preprocessing
 - train_test_split to split the data into test and train dataset
 - standardscaler to scale the dataset
 
-Compiling, Training, and Evaluating the Model
+##Compiling, Training, and Evaluating the Model
 
 Model 1 
 - First layer with 80 neurons and relu activation function
@@ -44,10 +44,10 @@ Model 3 - try with more layers, higher epoches, more neurons
 <img width="584" alt="image" src="https://user-images.githubusercontent.com/118244319/236706560-d30f4af1-52da-4d24-b281-6828b87101be.png">
 
 
-Summary 
+##Summary 
 
 All 3 models are failed to achieve the target model accuracy of 75% after trying to add more neurons, add more layers, add more epochs and change activation functions. Next step, we could try with different model. 
 
-Support and Thank You to
+##Support and Thank You to
 
 Instructors, TAs, Tutors, and Learning Assistants.
