@@ -16,9 +16,10 @@ Model 1
 - First layer with 80 neurons and relu activation function
 - Second layer with 30 neurons and relu activation function
 - Train model with 100 epoches
-- 72.5% accuracy comparing the model prediction with the true values
+- 72.6% accuracy comparing the model prediction with the true values
 - failed to achieve the target model accuracy 75% 
-<img width="590" alt="image" src="https://user-images.githubusercontent.com/118244319/236706133-38e91b71-9272-4b89-9a07-d2e598406452.png">
+<img width="588" alt="image" src="https://user-images.githubusercontent.com/118244319/236709353-9fe2d6c4-d359-43c9-bcbb-3625190af347.png">
+
 
 
 
@@ -26,9 +27,9 @@ Model 2 - try with different activation function and higher epoches
 - First layer with 80 neurons and tanh activation function
 - Second layer with 30 neurons and tanh activation function
 - Train model with 200 epoches
-- 72.4% accuracy comparing the model prediction with the true values
+- 72.5% accuracy comparing the model prediction with the true values
 - failed to achieve the target model accuracy 75% 
-<img width="570" alt="image" src="https://user-images.githubusercontent.com/118244319/236706122-ffa4bf51-53d3-4abc-bbf7-d887242c4e5c.png">
+<img width="573" alt="image" src="https://user-images.githubusercontent.com/118244319/236709338-e4a1ab58-1498-4f1a-b29a-5012c85497b3.png">
 
 
 
@@ -41,8 +42,7 @@ Model 3 - try with more layers, higher epoches, more neurons
 - Train model with 200 epoches
 - 72.5% accuracy comparing the model prediction with the true values
 - failed to achieve the target model accuracy 75% 
-<img width="584" alt="image" src="https://user-images.githubusercontent.com/118244319/236706560-d30f4af1-52da-4d24-b281-6828b87101be.png">
-
+<img width="593" alt="image" src="https://user-images.githubusercontent.com/118244319/236709321-f2f3a960-0629-4200-ad91-bdc359146ecc.png">
 
 ## Summary 
 
